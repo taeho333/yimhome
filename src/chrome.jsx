@@ -20,7 +20,7 @@ function Nav({ route, go }){
       <div className="nav-inner">
         <button className="brand" onClick={()=>go("home")} aria-label="home">
           <span className="serif">Yim Hyangja</span>
-          <span className="hanja">任香子</span>
+          <span className="hanja"></span>
         </button>
         <div className="nav-links">
           {links.map(([id,label])=>(
